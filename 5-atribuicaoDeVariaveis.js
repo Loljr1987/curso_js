@@ -1,5 +1,4 @@
 console.log("Trabalhando com atribuição de variáveis");
-const idade = 36;
 const primeiroNome = "Lucivaldo";
 const sobrenome = "Lopes";
 
@@ -21,3 +20,8 @@ contador = contador +1
 const nomeCompleto = `${primeiroNome} ${sobrenome}`;
 console.log(nomeCompleto);
 // aqui abaixo irá apresentar erro, pois a variével "const" não muda
+
+let idade; //declarando variável
+idade = 26; // atribuindo variável
+idade = idade+10;
+console.log(idade);
